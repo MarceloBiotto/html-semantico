@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: left;
+    margin-left: 200px;
+
+}
+.card-filme{
+    
+    display: inline-block;
+    background-color: red;
+    width: 500px;
+    border-radius: 18px;
+    text-align: center;
+    position: relative;
+    
+}
+
+.card-filme > img{
+    display: inline-block;
+    width: 200px;
+}
+
+.imagem-filme{
+    border-radius: 2rem;
+    
+}
+
+.card-filme > .filme-info{
+    display: inline-block;
+    
+}
+.filme-info{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 8px;
+}
+
+
